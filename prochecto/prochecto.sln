@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29306.81
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "prochecto", "prochecto\prochecto.csproj", "{94BE5FC1-09B9-41AD-BF13-9CDAA06831E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{94BE5FC1-09B9-41AD-BF13-9CDAA06831E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94BE5FC1-09B9-41AD-BF13-9CDAA06831E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94BE5FC1-09B9-41AD-BF13-9CDAA06831E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94BE5FC1-09B9-41AD-BF13-9CDAA06831E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {47BA13C0-59DF-4811-AFD2-D346D45D9E8A}
+	EndGlobalSection
+EndGlobal
