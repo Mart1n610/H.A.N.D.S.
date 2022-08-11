@@ -28,55 +28,68 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btnSimonBoton = new System.Windows.Forms.Button();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.SuspendLayout();
-            // 
-            // btnSimonBoton
-            // 
-            this.btnSimonBoton.Location = new System.Drawing.Point(344, 189);
-            this.btnSimonBoton.Name = "btnSimonBoton";
-            this.btnSimonBoton.Size = new System.Drawing.Size(230, 110);
-            this.btnSimonBoton.TabIndex = 0;
-            this.btnSimonBoton.Text = "Simon";
-            this.btnSimonBoton.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::prochecto.Properties.Resources._580b57fcd9996e24bc43c44e;
-            this.pictureBox1.Location = new System.Drawing.Point(735, 189);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(149, 110);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = global::prochecto.Properties.Resources._580b57fcd9996e24bc43c44e;
-            this.pictureBox2.Location = new System.Drawing.Point(403, 185);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(149, 110);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox2.TabIndex = 2;
-            this.pictureBox2.TabStop = false;
-            // 
-            // Form1
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(914, 481);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.btnSimonBoton);
-            this.Name = "Form1";
-            this.Text = "Form1";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.ResumeLayout(false);
+			this.btnSimonBoton = new System.Windows.Forms.Button();
+			this.pictureBox1 = new System.Windows.Forms.PictureBox();
+			this.pictureBox2 = new System.Windows.Forms.PictureBox();
+			this.checkBox1 = new System.Windows.Forms.CheckBox();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+			this.SuspendLayout();
+			// 
+			// btnSimonBoton
+			// 
+			this.btnSimonBoton.Location = new System.Drawing.Point(344, 189);
+			this.btnSimonBoton.Name = "btnSimonBoton";
+			this.btnSimonBoton.Size = new System.Drawing.Size(230, 110);
+			this.btnSimonBoton.TabIndex = 0;
+			this.btnSimonBoton.Text = "Simon";
+			this.btnSimonBoton.UseVisualStyleBackColor = true;
+			// 
+			// pictureBox1
+			// 
+			this.pictureBox1.Image = global::prochecto.Properties.Resources._580b57fcd9996e24bc43c44e;
+			this.pictureBox1.Location = new System.Drawing.Point(735, 189);
+			this.pictureBox1.Name = "pictureBox1";
+			this.pictureBox1.Size = new System.Drawing.Size(149, 110);
+			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox1.TabIndex = 1;
+			this.pictureBox1.TabStop = false;
+			// 
+			// pictureBox2
+			// 
+			this.pictureBox2.Image = global::prochecto.Properties.Resources._580b57fcd9996e24bc43c44e;
+			this.pictureBox2.Location = new System.Drawing.Point(403, 185);
+			this.pictureBox2.Name = "pictureBox2";
+			this.pictureBox2.Size = new System.Drawing.Size(149, 110);
+			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.pictureBox2.TabIndex = 2;
+			this.pictureBox2.TabStop = false;
+			// 
+			// checkBox1
+			// 
+			this.checkBox1.AutoSize = true;
+			this.checkBox1.Location = new System.Drawing.Point(169, 83);
+			this.checkBox1.Name = "checkBox1";
+			this.checkBox1.Size = new System.Drawing.Size(80, 17);
+			this.checkBox1.TabIndex = 3;
+			this.checkBox1.Text = "checkBox1";
+			this.checkBox1.UseVisualStyleBackColor = true;
+			// 
+			// Form1
+			// 
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+			this.ClientSize = new System.Drawing.Size(914, 481);
+			this.Controls.Add(this.checkBox1);
+			this.Controls.Add(this.pictureBox2);
+			this.Controls.Add(this.pictureBox1);
+			this.Controls.Add(this.btnSimonBoton);
+			this.Name = "Form1";
+			this.Text = "Form1";
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			this.ResumeLayout(false);
+			this.PerformLayout();
 
         }
 
@@ -85,6 +98,7 @@
         private System.Windows.Forms.Button btnSimonBoton;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.PictureBox pictureBox2;
-    }
+		private System.Windows.Forms.CheckBox checkBox1;
+	}
 }
 
