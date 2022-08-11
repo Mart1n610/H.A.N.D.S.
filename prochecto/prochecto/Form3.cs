@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace prochecto
 {
-    public partial class Form1 : Form
-    {
-        public Form1()
-        {
-        }
-
-		private void BtnImita_Click(object sender, EventArgs e)
+	public partial class Form3 : Form
+	{
+		public Form3()
 		{
-			Form3 frm3 = new Form3();
-			frm3.Show();
-			this.Hide();
+			InitializeComponent();
 		}
 	}
 }

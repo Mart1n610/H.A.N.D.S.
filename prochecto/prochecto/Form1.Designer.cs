@@ -28,66 +28,66 @@
         /// </summary>
         private void InitializeComponent()
         {
-			this.btnSimonBoton = new System.Windows.Forms.Button();
-			this.pictureBox1 = new System.Windows.Forms.PictureBox();
-			this.pictureBox2 = new System.Windows.Forms.PictureBox();
-			this.checkBox1 = new System.Windows.Forms.CheckBox();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+			this.btnImita = new System.Windows.Forms.Button();
+			this.btnflechaI = new System.Windows.Forms.PictureBox();
+			this.btnflechaD = new System.Windows.Forms.PictureBox();
+			this.LabImita = new System.Windows.Forms.Label();
+			((System.ComponentModel.ISupportInitialize)(this.btnflechaI)).BeginInit();
+			((System.ComponentModel.ISupportInitialize)(this.btnflechaD)).BeginInit();
 			this.SuspendLayout();
 			// 
-			// btnSimonBoton
+			// btnImita
 			// 
-			this.btnSimonBoton.Location = new System.Drawing.Point(344, 189);
-			this.btnSimonBoton.Name = "btnSimonBoton";
-			this.btnSimonBoton.Size = new System.Drawing.Size(230, 110);
-			this.btnSimonBoton.TabIndex = 0;
-			this.btnSimonBoton.Text = "Simon";
-			this.btnSimonBoton.UseVisualStyleBackColor = true;
+			this.btnImita.Location = new System.Drawing.Point(197, 84);
+			this.btnImita.Name = "btnImita";
+			this.btnImita.Size = new System.Drawing.Size(435, 246);
+			this.btnImita.TabIndex = 0;
+			this.btnImita.Text = "Imita las formas";
+			this.btnImita.UseVisualStyleBackColor = true;
+			this.btnImita.Click += new System.EventHandler(this.BtnImita_Click);
 			// 
-			// pictureBox1
+			// btnflechaI
 			// 
-			this.pictureBox1.Image = global::prochecto.Properties.Resources._580b57fcd9996e24bc43c44e;
-			this.pictureBox1.Location = new System.Drawing.Point(735, 189);
-			this.pictureBox1.Name = "pictureBox1";
-			this.pictureBox1.Size = new System.Drawing.Size(149, 110);
-			this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox1.TabIndex = 1;
-			this.pictureBox1.TabStop = false;
+			this.btnflechaI.Image = global::prochecto.Properties.Resources._580b57fcd9996e24bc43c44e;
+			this.btnflechaI.Location = new System.Drawing.Point(58, 162);
+			this.btnflechaI.Name = "btnflechaI";
+			this.btnflechaI.Size = new System.Drawing.Size(71, 63);
+			this.btnflechaI.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.btnflechaI.TabIndex = 2;
+			this.btnflechaI.TabStop = false;
 			// 
-			// pictureBox2
+			// btnflechaD
 			// 
-			this.pictureBox2.Image = global::prochecto.Properties.Resources._580b57fcd9996e24bc43c44e;
-			this.pictureBox2.Location = new System.Drawing.Point(403, 185);
-			this.pictureBox2.Name = "pictureBox2";
-			this.pictureBox2.Size = new System.Drawing.Size(149, 110);
-			this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-			this.pictureBox2.TabIndex = 2;
-			this.pictureBox2.TabStop = false;
+			this.btnflechaD.Image = global::prochecto.Properties.Resources._580b57fcd9996e24bc43c44e;
+			this.btnflechaD.Location = new System.Drawing.Point(702, 162);
+			this.btnflechaD.Name = "btnflechaD";
+			this.btnflechaD.Size = new System.Drawing.Size(71, 63);
+			this.btnflechaD.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+			this.btnflechaD.TabIndex = 3;
+			this.btnflechaD.TabStop = false;
 			// 
-			// checkBox1
+			// LabImita
 			// 
-			this.checkBox1.AutoSize = true;
-			this.checkBox1.Location = new System.Drawing.Point(169, 83);
-			this.checkBox1.Name = "checkBox1";
-			this.checkBox1.Size = new System.Drawing.Size(80, 17);
-			this.checkBox1.TabIndex = 3;
-			this.checkBox1.Text = "checkBox1";
-			this.checkBox1.UseVisualStyleBackColor = true;
+			this.LabImita.AutoSize = true;
+			this.LabImita.Location = new System.Drawing.Point(370, 29);
+			this.LabImita.Name = "LabImita";
+			this.LabImita.Size = new System.Drawing.Size(79, 13);
+			this.LabImita.TabIndex = 4;
+			this.LabImita.Text = "Imita las formas";
 			// 
 			// Form1
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.ClientSize = new System.Drawing.Size(914, 481);
-			this.Controls.Add(this.checkBox1);
-			this.Controls.Add(this.pictureBox2);
-			this.Controls.Add(this.pictureBox1);
-			this.Controls.Add(this.btnSimonBoton);
+			this.Controls.Add(this.LabImita);
+			this.Controls.Add(this.btnflechaD);
+			this.Controls.Add(this.btnflechaI);
+			this.Controls.Add(this.btnImita);
 			this.Name = "Form1";
 			this.Text = "Form1";
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-			((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.btnflechaI)).EndInit();
+			((System.ComponentModel.ISupportInitialize)(this.btnflechaD)).EndInit();
 			this.ResumeLayout(false);
 			this.PerformLayout();
 
@@ -95,10 +95,10 @@
 
         #endregion
 
-        private System.Windows.Forms.Button btnSimonBoton;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox2;
-		private System.Windows.Forms.CheckBox checkBox1;
+        private System.Windows.Forms.Button btnImita;
+        private System.Windows.Forms.PictureBox btnflechaI;
+		private System.Windows.Forms.PictureBox btnflechaD;
+		private System.Windows.Forms.Label LabImita;
 	}
 }
 
